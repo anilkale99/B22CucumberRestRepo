@@ -36,14 +36,14 @@ public class TestCompareJson {
 //		JSONAssert.assertEquals(expected4, actual4, JSONCompareMode.STRICT);
 		
 //		//case4 : sequence Change : FAIL
-//		String actual5   = "{name:\"Jerry\", id:123,address:\"Pune\"}";
-//		String expected5 = "{name:\"Jerry\", id:123}";
-//		JSONAssert.assertEquals(expected5, actual5, JSONCompareMode.NON_EXTENSIBLE);
+		String actual5   = "{name:\"Jerry\", id:123,address:\"Pune\"}";
+		String expected5 = "{name:\"Jerry\", id:123}";
+		JSONAssert.assertEquals(expected5, actual5, JSONCompareMode.NON_EXTENSIBLE);
 		
 		//case5 : sequence Change : PASS
-		String actual6   = "{id:123, name:\"Jerry\"}";
-		String expected6 = "{name:\"Jerry\", id:123}";
-		JSONAssert.assertEquals(expected6, actual6, JSONCompareMode.NON_EXTENSIBLE);
+//		String actual6   = "{id:123, name:\"Jerry\"}";
+//		String expected6 = "{name:\"Jerry\", id:123}";
+//		JSONAssert.assertEquals(expected6, actual6, JSONCompareMode.NON_EXTENSIBLE);
 		
 	}
 
